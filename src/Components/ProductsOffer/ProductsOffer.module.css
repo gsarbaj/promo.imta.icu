@@ -1,0 +1,92 @@
+.features {
+
+}
+
+.features__title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #3b3663;
+    font-weight: 800;
+    text-align: center;
+}
+
+.features__subtitle {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
+    font-size: 18px;
+    color: #3b3663;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.features__wrapper {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productItem {
+    margin-bottom: 30px;
+    padding: 57px 43px;
+    width: 370px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.productItem:nth-child(2n+2) {
+    background-color: #fffcf6;
+}
+
+.productItem:nth-child(2n+3) {
+    background-color: #f0fffc;
+}
+
+.productItem:nth-child(5n+1) {
+    background-color: #f9f8ff;
+}
+
+.productItem:nth-child(2n+2):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(247, 108, 0) 100%);
+}
+
+.productItem:nth-child(2n+3):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(44, 199, 120) 100%);
+}
+
+.productItem:nth-child(5n+1):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(98, 84, 231) 100%);
+}
+
+.featuresItem__icon {
+    height: 120px;
+}
+
+.featuresItem__title {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3b3663;
+}
+
+.featuresItem__desc {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #696687;
+}

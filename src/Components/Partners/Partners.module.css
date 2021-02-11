@@ -1,0 +1,18 @@
+.partners {
+    min-height: 505px;
+    background-image: url("../../img/content_wave-bg2.png");
+    background-repeat: no-repeat;
+}
+
+.partners__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners img {
+    max-width: 174px;
+}
