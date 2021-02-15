@@ -3,15 +3,22 @@ import HeaderRu from "./HeaderRU/HeaderRU";
 import MainRu from "./MainRu/MainRU";
 import FooterRu from "./FooterRU/FooterRU";
 
-const MainPageRu = () => {
-  return (
+const GoogleAdRu = props => {
+
+
+
+    return (
    <div>
+
        <HeaderRu/>
        <MainRu/>
        <FooterRu/>
+
+
+       
    </div>
   );
  }
 
 
-export default MainPageRu;
+export default GoogleAdRu;

@@ -2,7 +2,8 @@ import React from 'react';
 import Logo from "../../../../Components/Logo/Logo";
 import NavBar from "../../../../Components/NavBar/NavBar";
 import Tel from "../../../../Components/Tel/Tel";
-import {DataRu} from "../../../../Data/DataRu"
+import {DataRu} from "../../../../Data/DataRu";
+import './Header.css';
 
 const HeaderRu = props => {
   return (

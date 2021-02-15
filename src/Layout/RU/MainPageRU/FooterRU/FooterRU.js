@@ -21,16 +21,17 @@ const FooterRu = () => {
                link={DataRu.Address.link}
                etext={DataRu.EmailText}
            />
+           <div className={style.footer__down}>
+               <About
+                    title={DataRu.About.Title}
+                    text={DataRu.About.Text}
+                    array={DataRu.Social}
+               />
 
-           <About
-                title={DataRu.About.Title}
-                text={DataRu.About.Text}
-                array={DataRu.Social}
-           />
-
-           <FooterLinks
-                array={DataRu.FooterLinks}
-           />
+               <FooterLinks
+                    array={DataRu.FooterLinks}
+               />
+           </div>
             <Copyright
                 text={DataRu.Copyright.Text}
             />

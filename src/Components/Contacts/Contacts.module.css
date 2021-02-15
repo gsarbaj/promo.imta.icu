@@ -13,7 +13,6 @@
 }
 
 .contacts__item {
-    margin-right: 50px;
     padding-left: 50px;
     color: #ffffff;
     font-size: 18px;
@@ -23,6 +22,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.contacts__wrapper>div {
+    margin-right: 50px;
 }
 
 .contacts__icon {
@@ -42,5 +45,6 @@
 }
 
 .contacts__address {
-
+    margin: 0;
+    width: 180px;
 }

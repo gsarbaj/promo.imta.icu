@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import './FooterLinks.css'
 
 const FooterLinks = props => {
 
@@ -16,7 +17,7 @@ const FooterLinks = props => {
     )
 
   return (
-   <div>
+   <div className={'footer-nav'}>
        {linksRender}
    </div>
   );

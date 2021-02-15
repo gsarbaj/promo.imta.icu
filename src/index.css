@@ -3,3 +3,7 @@ body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
+
+#modal-root {
+    z-index: 1;
+}

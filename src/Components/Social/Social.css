@@ -1,0 +1,15 @@
+.footer-nav__socials {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav__socials li {
+    margin-right: 20px;
+}
+
+.footer-nav__socials img {
+    width: 16px;
+    height: 16px;
+}

@@ -2,15 +2,30 @@ import React from 'react';
 import {DataRu} from '../../../../Data/DataRu'
 import FirstScreen from "../../../../Components/FirstScreen/FirstScreen";
 import ProductsOffer from "../../../../Components/ProductsOffer/ProductsOffer";
-import Portfolio from "../../../../Components/Portfolio/Portfolio";
 import ConsultantForm from "../../../../Components/Forms/ConsultantForm/ConsultantForm";
 import Partners from "../../../../Components/Partners/Partners";
 import HowWeWork from "../../../../Components/HowWeWork/HowWeWork";
 import CompanyDescription from "../../../../Components/CompanyDescription/CompanyDescription";
+import {Helmet} from "react-helmet";
+import './MainRu.css'
+import Button from "../../../../Components/Button/Button";
 
-const MainRu = () => {
+
+const MainRu = (props) => {
+
   return (
+
    <main>
+       <Helmet>
+           <title>Рекламная компания Google</title>
+           <meta charSet="utf-8"/>
+           <meta name={"description"} content={DataRu.FirstScreen.title}/>
+           <meta name={'keywords'} content={'Google Ads, Реклама в Google, Привлечение Клиентов'}/>
+           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+           <meta name="theme-color" content="#000000" />
+       </Helmet>
+
+
        <div className={'wrapper'}>
             <FirstScreen
                 title={DataRu.FirstScreen.title}
@@ -20,6 +35,8 @@ const MainRu = () => {
                 text1={DataRu.FirstScreen.button1text}
                 text2={DataRu.FirstScreen.button2text}
             />
+            <Button link={'/#'} text={'START'}/>
+
        </div>
        <ProductsOffer
            title={DataRu.ProductsOffer.title}
@@ -32,11 +49,6 @@ const MainRu = () => {
             array={DataRu.HowWeWork.steps}
         />
 
-       {/*<Portfolio*/}
-       {/*    title={DataRu.Portfolio.title}*/}
-       {/*    subtitle={DataRu.Portfolio.subTitle}*/}
-       {/*    array={DataRu.Portfolio.Projects}*/}
-       {/*/>*/}
 
        <CompanyDescription
             title={DataRu.CompanyDescription.Title}
@@ -59,6 +71,8 @@ const MainRu = () => {
        <Partners
            partners={DataRu.Partners}
        />
+
+
 
    </main>
   );

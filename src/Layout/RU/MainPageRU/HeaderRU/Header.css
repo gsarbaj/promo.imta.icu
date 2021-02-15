@@ -1,0 +1,12 @@
+.header {
+    padding: 20px 100px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    position: absolute;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}

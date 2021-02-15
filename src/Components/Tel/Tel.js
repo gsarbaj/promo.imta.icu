@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Tel.css'
 
 const Tel = props => {
   return (
    <>
-       <a href={"tel: " + props.tel}>{props.text}</a>
+       <a className={"tel"} href={"tel: " + props.tel}>{props.text}</a>
    </>
   );
  }

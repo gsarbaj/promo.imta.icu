@@ -3,4 +3,19 @@
 }
 
 .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #223171;
+}
+
+.footer__down {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1170px;
+    display: flex;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }

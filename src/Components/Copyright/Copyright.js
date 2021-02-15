@@ -1,4 +1,5 @@
 import React from 'react';
+import './Copyright.css'
 
 const Copyright = props => {
   return (

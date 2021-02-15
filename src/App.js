@@ -1,14 +1,15 @@
 import './App.css';
 import {Route, Switch, Redirect} from 'react-router-dom';
-import MainRu from "./Layout/RU/MainPageRU/MainPageRu";
+import GoogleAdRu from "./Layout/RU/MainPageRU/MainPageRu";
 
 
 function App() {
 
     let routes = (
         <Switch>
-            <Route path={'/google-campaign'} component={MainRu}/>
-            <Redirect to={'/google-campaign'}/>
+            <Route path={'/'} component={GoogleAdRu}/>
+            <Route path={'/ru/google-campaign'} component={GoogleAdRu}/>
+            <Redirect to={'/'}/>
         </Switch>
     )
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavDataRu} from '../../Data/NavDataRu'
 import {NavLink} from "react-router-dom";
+import './NavBar.css'
 
 const NavBar = () => {
 
