@@ -1,5 +1,6 @@
 import React from 'react';
 import './HowWeWork.css'
+import Button from "../Button/Button";
 
 const HowWeWork = props => {
 
@@ -29,7 +30,7 @@ const HowWeWork = props => {
            </div>
 
        </div>
-
+       <Button link={'/#'} text={'Начни Сейчас'}/>
    </section>
   );
  }

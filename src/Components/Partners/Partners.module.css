@@ -16,7 +16,7 @@
 
 .partners img {
     max-width: 174px;
-    filter: invert(.6) grayscale(.9);
+    filter: invert(.6) grayscale(.9) opacity(0.5);
 }
 
 .partners img:nth-of-type(3) {

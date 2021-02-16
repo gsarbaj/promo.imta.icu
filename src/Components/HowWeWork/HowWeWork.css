@@ -1,7 +1,11 @@
 .howwework {
-    margin-top: -100px;
-    padding-top: 170px;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    background-color: #F9FAFB;
     background-image: url("../../img/white_wave.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .howwework__wrapper {
@@ -28,6 +32,7 @@
 }
 
 .howwework__scheme {
+    margin-bottom: 80px;
     display: flex;
 }
 
