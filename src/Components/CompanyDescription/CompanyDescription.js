@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './CompanyDescription.module.css'
+import Button from "../Button/Button";
 
 const CompanyDescription = props => {
 
@@ -26,6 +27,9 @@ const CompanyDescription = props => {
             </div>
 
         </div>
+
+        <Button link={'/#'} text={'Начни Сейчас'}/>
+
    </section>
   );
  }

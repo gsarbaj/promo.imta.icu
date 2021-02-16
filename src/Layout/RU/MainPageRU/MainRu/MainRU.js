@@ -50,9 +50,6 @@ const MainRu = (props) => {
             array={DataRu.HowWeWork.steps}
         />
 
-       <Button link={'/#'} text={'Начни Сейчас'}/>
-
-
        <CompanyDescription
             title={DataRu.CompanyDescription.Title}
             subTitle={DataRu.CompanyDescription.subTitle}
@@ -60,7 +57,6 @@ const MainRu = (props) => {
             img={DataRu.CompanyDescription.img}
             numbers={DataRu.CompanyDescription.aboutNumbers}
        />
-       <Button link={'/#'} text={'Начни Сейчас'}/>
 
        <Price
             title={DataRu.Price.title}

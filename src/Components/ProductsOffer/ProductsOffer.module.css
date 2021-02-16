@@ -26,6 +26,7 @@
 
 .features__wrapper {
     margin-top: 40px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1170px;
@@ -57,15 +58,15 @@
 }
 
 .productItem:nth-child(2n+2):hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(247, 108, 0) 100%);
+    background-image: linear-gradient(rgba(255, 255, 255, 255) 50%, rgb(247, 108, 0) 100%);
 }
 
 .productItem:nth-child(2n+3):hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(44, 199, 120) 100%);
+    background-image: linear-gradient(rgba(255, 255, 255, 255) 50%, rgb(44, 199, 120) 100%);
 }
 
 .productItem:nth-child(5n+1):hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(98, 84, 231) 100%);
+    background-image: linear-gradient(rgba(255, 255, 255, 255) 50%, rgb(98, 84, 231) 100%);
 }
 
 .featuresItem__icon {
