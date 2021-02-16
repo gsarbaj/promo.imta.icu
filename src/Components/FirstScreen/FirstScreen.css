@@ -49,6 +49,10 @@
 }
 
 .hero__buttons a {
+    display: initial;
+    margin-left: 0;
+    margin-right: 0;
+    width: initial;
     padding: 13px 27px;
     color: #ffffff;
     font-size: 12px;

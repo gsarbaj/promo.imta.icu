@@ -38,6 +38,14 @@ export const DataRu = {
         ]
     },
 
+    Price: {
+        title: 'Цены',
+        subtitle: 'Цены тут узнать',
+        low: {title: 'Базовый тариф', price: '1500 в месяц', con1: 'до 50 слов', con2: '1 страница', con3: 'без аналитики'},
+        mid: {title: 'Стартовый тариф', price: '3500 в месяц', con1: 'до 150 слов', con2: '3 страницы', con3: 'Google аналитика'},
+        high: {title: 'Премиум тариф', price: '1500 в месяц', con1: 'до 500 слов', con2: '7 страница', con3: 'Google аналитика'}
+    },
+
     HowWeWork:{
         Title: '4 простых шага и новые клиенты будут звонить каждый день',
         subTitle: 'КАК МЫ ПРИВЛЕКАЕМ ОТ 49 КЛИЕНТОВ КАЖДЫЙ МЕСЯЦ',
@@ -82,11 +90,11 @@ export const DataRu = {
         feedbackForm: ""
     },
     Partners:[
-        {partnerName: "Yandex", img: "/img/1.png"},
-        {partnerName: "Google", img: "/img/1.png"},
-        {partnerName: "Facebook", img: "/img/1.png"},
-        {partnerName: "Tic Toc", img: "/img/1.png"},
-        {partnerName: "Instagram", img: "/img/1.png"},
+        {partnerName: "Yandex", img: "/img/google-logo.png"},
+        {partnerName: "Google", img: "/img/Facebook-logo.png"},
+        {partnerName: "Facebook", img: "/img/Instagram.png"},
+        {partnerName: "Tic Toc", img: "/img/LinkedIn.png"},
+        {partnerName: "Instagram", img: "/img/tiktok.png"},
 
     ],
     Contacts:{

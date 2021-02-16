@@ -11,8 +11,18 @@
     max-width: 1170px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .partners img {
     max-width: 174px;
+    filter: invert(.6) grayscale(.9);
+}
+
+.partners img:nth-of-type(3) {
+    margin-top: 9px;
+}
+
+.partners img:hover {
+    filter: none;
 }

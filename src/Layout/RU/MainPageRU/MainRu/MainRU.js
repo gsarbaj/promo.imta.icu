@@ -7,9 +7,9 @@ import Partners from "../../../../Components/Partners/Partners";
 import HowWeWork from "../../../../Components/HowWeWork/HowWeWork";
 import CompanyDescription from "../../../../Components/CompanyDescription/CompanyDescription";
 import {Helmet} from "react-helmet";
-import './MainRu.css'
+import './MainRu.module.css'
 import Button from "../../../../Components/Button/Button";
-
+import Price from "../../../../Components/Price/Price";
 
 const MainRu = (props) => {
 
@@ -35,7 +35,7 @@ const MainRu = (props) => {
                 text1={DataRu.FirstScreen.button1text}
                 text2={DataRu.FirstScreen.button2text}
             />
-            <Button link={'/#'} text={'START'}/>
+
 
        </div>
        <ProductsOffer
@@ -43,11 +43,14 @@ const MainRu = (props) => {
            subtitle={DataRu.ProductsOffer.subTitle}
            array={DataRu.ProductsOffer.Products}
        />
+       <Button link={'/#'} text={'Начни Сейчас'}/>
         <HowWeWork
             title={DataRu.HowWeWork.Title}
             subtitle={DataRu.HowWeWork.subTitle}
             array={DataRu.HowWeWork.steps}
         />
+
+       <Button link={'/#'} text={'Начни Сейчас'}/>
 
 
        <CompanyDescription
@@ -56,6 +59,30 @@ const MainRu = (props) => {
             text={DataRu.CompanyDescription.Text}
             img={DataRu.CompanyDescription.img}
             numbers={DataRu.CompanyDescription.aboutNumbers}
+       />
+       <Button link={'/#'} text={'Начни Сейчас'}/>
+
+       <Price
+            title={DataRu.Price.title}
+            subtitle={DataRu.Price.subtitle}
+
+            lowTitle={DataRu.Price.low.title}
+            lowPrice={DataRu.Price.low.price}
+            lowContent1={DataRu.Price.low.con1}
+            lowContent2={DataRu.Price.low.con2}
+            lowContent3={DataRu.Price.low.con3}
+
+            midTitle={DataRu.Price.mid.title}
+            midPrice={DataRu.Price.mid.price}
+            midContent1={DataRu.Price.mid.con1}
+            midContent2={DataRu.Price.mid.con2}
+            midContent3={DataRu.Price.mid.con3}
+
+            highTitle={DataRu.Price.high.title}
+            highPrice={DataRu.Price.high.price}
+            highContent1={DataRu.Price.high.con1}
+            highContent2={DataRu.Price.high.con2}
+            highContent3={DataRu.Price.high.con3}
        />
 
 

@@ -1,0 +1,16 @@
+.buttonlink {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+    justify-content: center;
+    padding: 13px 27px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(96deg, #9289f1 0%, #6254e7 100%);
+}

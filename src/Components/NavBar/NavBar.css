@@ -18,6 +18,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.header__link:hover {
+    color: #F47514;
+}
+
 .subnav {
     display: none;
     min-width: 250px;

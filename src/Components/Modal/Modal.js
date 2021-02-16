@@ -16,12 +16,15 @@ const Modal = forwardRef((props, ref) => {
     const open = () => {
         setDispay(true)
         document.getElementById('root').classList.add('act')
+        document.body.style.overflow = 'hidden';
 
     }
 
     const close = () => {
         setDispay(false)
         document.getElementById('root').classList.remove('act')
+        document.body.style.overflow = 'visible';
+
     }
 
     if (display) {
@@ -29,7 +32,9 @@ const Modal = forwardRef((props, ref) => {
         return ReactDOM.createPortal(<div className={'modal-wrapper'}>
             <div className={"modal-box"}>
                 {props.children}
-                <button onClick={close}>Close</button>
+                <button onClick={close}>
+                    X
+                </button>
             </div>
 
             <div onClick={close} className={'modal-backdrop'}></div>
