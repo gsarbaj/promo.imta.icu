@@ -1,5 +1,4 @@
 import React from 'react';
-import B25Form from "./Form25/Form25";
 import './SubmitForm.css'
 import Form25 from "./Form25/Form25";
 
