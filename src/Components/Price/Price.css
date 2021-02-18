@@ -29,6 +29,13 @@
     align-items: center;
 }
 
+@media (max-width: 767px) {
+    .price-container {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+}
+
 .price-item {
     padding: 30px 80px 50px;
     width: 33%;
@@ -93,4 +100,18 @@
 
 .price-item:nth-of-type(2) .buttonlink {
     background-image: linear-gradient(90deg, #f0ac0e -20%, #ff7426 115%);
+}
+
+@media (max-width: 767px) {
+    .price-item {
+        margin-bottom: 20px;
+        width: 80%;
+        padding: 30px 20px 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .price-item:nth-of-type(2) {
+        padding: 30px 20px 50px;
+    }
 }

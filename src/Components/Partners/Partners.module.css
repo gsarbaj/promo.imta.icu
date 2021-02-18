@@ -14,9 +14,22 @@
     align-items: center;
 }
 
+@media (max-width: 767px) {
+    .partners__wrapper {
+        padding-top: 160px;
+        flex-direction: column;
+    }
+}
+
 .partners img {
     max-width: 174px;
     filter: invert(.6) grayscale(.9) opacity(0.5);
+}
+
+@media (max-width: 767px) {
+    .partners img {
+        margin-bottom: 20px;
+    }
 }
 
 .partners img:nth-of-type(3) {

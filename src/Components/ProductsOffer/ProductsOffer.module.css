@@ -2,6 +2,12 @@
 
 }
 
+@media (max-width: 767px) {
+    .features {
+        padding: 0 15px;
+    }
+}
+
 .features__title {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -24,6 +30,12 @@
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    .features__subtitle {
+        font-size: 15px;
+    }
+}
+
 .features__wrapper {
     margin-top: 40px;
     margin-bottom: 50px;
@@ -34,6 +46,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .features__wrapper {
+        margin-bottom: 0;
+    }
 }
 
 .productItem {
