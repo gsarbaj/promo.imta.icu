@@ -15,6 +15,12 @@
     text-align: center;
 }
 
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__wrapper {
+        padding: 0 15px;
+    }
+}
+
 .howwework__title {
     font-size: 30px;
     line-height: 40px;
@@ -42,6 +48,12 @@
     display: flex;
 }
 
+@media (min-width: 768px) and (max-width: 1170px) {
+    .howwework__scheme {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 767px) {
     .howwework__scheme {
         margin-bottom: 30px;
@@ -53,9 +65,22 @@
     min-height: 320px;
 }
 
+@media (min-width: 1171px) {
+    .howwework__item {
+        max-width: 290px;
+    }
+}
+
 @media (max-width: 767px) {
     .howwework__item {
         min-height: 280px;
+    }
+}
+
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__item {
+        width: 180px;
+        min-height: 300px;
     }
 }
 
@@ -76,6 +101,21 @@
     position: relative;
 }
 
+@media (max-width: 767px) {
+    .howwework__balloon {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__balloon {
+        margin-bottom: -11px;
+        margin-top: -11px;
+    }
+}
+
 .howwework__stage {
     position: absolute;
     top: 35px;
@@ -85,16 +125,46 @@
     color: #ffffff;
 }
 
+@media (max-width: 767px) {
+    .howwework__stage {
+        right: 136px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .howwework__stage {
+        right: 72px;
+    }
+}
+
 .howwework__item:nth-of-type(even) .howwework__stage {
-    top: 70px
+    top: 70px;
+}
+
+@media (max-width: 767px) {
+    .howwework__item:nth-of-type(even) .howwework__stage {
+        right: 35px;
+    }
 }
 
 .howwework__item:nth-of-type(even) .howwework__strip {
     margin-top: 30px;
 }
 
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__item:nth-of-type(even) .howwework__strip {
+        margin-top: 22px;
+    }
+}
+
 .howwework__item:nth-of-type(odd) .howwework__strip {
     margin-bottom: 30px;
+}
+
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__item:nth-of-type(odd) .howwework__strip {
+        margin-bottom: 22px;
+    }
 }
 
 .howwework__desc {
@@ -102,4 +172,11 @@
     font-weight: 700;
     line-height: 1.25em;
     color: #3b3663;
+}
+
+@media (max-width: 1170px) and (min-width: 768px) {
+    .howwework__strip img {
+        width: 180px;
+        height: 24px;
+    }
 }

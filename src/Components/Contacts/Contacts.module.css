@@ -12,6 +12,27 @@
     align-items: center;
 }
 
+@media (max-width: 480px) {
+    .contacts__wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts__wrapper {
+        align-items: flex-start;
+        margin-left: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .contacts__wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 .contacts__item {
     padding-left: 50px;
     color: #ffffff;

@@ -5,6 +5,12 @@
     list-style: none;
 }
 
+@media (max-width: 767px) {
+    .footer-nav__socials {
+        margin-bottom: 20px;
+    }
+}
+
 .footer-nav__socials li {
     margin-right: 20px;
 }

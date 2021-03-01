@@ -30,6 +30,16 @@
     width: 50%;
 }
 
+@media (min-width: 768px) and (max-width: 1170px) {
+    .feedback__img {
+        margin-left: 0;
+    }
+
+    .feedback__img img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 767px) {
     .feedback__img {
         margin-left: 0;
@@ -45,6 +55,13 @@
 .feedback__content {
     margin-left: 145px;
     width: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .feedback__content {
+        width: 70%;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -86,11 +103,29 @@
     margin-right: 30px;
 }
 
+@media (max-width: 610px) {
+    .b24-form-field:nth-of-type(odd) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .b24-form-field:nth-of-type(odd) {
+        margin-right: 0;
+    }
+}
+
 .b24-form-style-modern .b24-form-control-string .b24-form-control {
     min-width: 260px;
     border-bottom-width: 1px !important;
     border-bottom-style: solid;
     border-bottom-color: #c0baf6;
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .b24-form-style-modern .b24-form-control-string .b24-form-control {
+
+    }
 }
 
 form .b24-form-btn {
@@ -114,4 +149,16 @@ form .b24-form-btn:hover {
 form div:first-of-type {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 610px) {
+    form div:first-of-type {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    form div:first-of-type {
+        display: block;
+    }
 }

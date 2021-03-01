@@ -2,6 +2,12 @@
     margin-top: -122px;
 }
 
+@media (max-width: 767px) {
+    .footer {
+        margin-top: 0;
+    }
+}
+
 .footer__wrapper {
     display: flex;
     flex-direction: column;
@@ -18,4 +24,23 @@
     color: #ffffff;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    .footer__down {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__down {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
 }

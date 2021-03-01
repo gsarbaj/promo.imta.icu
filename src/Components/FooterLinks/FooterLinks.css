@@ -4,6 +4,22 @@
     justify-content: space-around;
 }
 
+@media (max-width: 767px) {
+    .footer-nav {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-nav__item {
+        width: 130px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+}
+
 .footer-nav__title {
     margin-top: 0;
     font-weight: 800;
