@@ -1,15 +1,17 @@
 import './App.css';
 import {Route, Switch, Redirect} from 'react-router-dom';
-import GoogleAdRu from "./Layout/RU/MainPageRU/MainPageRu";
+import GoogleAdRu from "./Layout/RU/GoogleAdRu/GoogleAdRu";
+import InstagramAdRu from "./Layout/RU/InstagramAdRu/InstagramAdRu";
 
 
 function App() {
 
     let routes = (
         <Switch>
-            <Route path={'/'} component={GoogleAdRu}/>
+
             <Route path={'/ru/google-campaign'} component={GoogleAdRu}/>
-            <Redirect to={'/'}/>
+            <Route path={'/ru/instagram-campaign'} component={InstagramAdRu}/>
+            <Redirect to={'/ru/instagram-campaign'}/>
         </Switch>
     )
 
