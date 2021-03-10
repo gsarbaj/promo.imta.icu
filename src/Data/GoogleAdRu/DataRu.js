@@ -3,7 +3,7 @@ export const Data = {
     Email: 'info@imta.icu',
     EmailText: '?, &subject=Хочу задать вопрос&body=Добрый день,',
     Address: {text:'Кирьят-бьялик, Ахад Ха-ам, 3-16', link: 'https://goo.gl/maps/A3mwjLzwXvegsjvV7'},
-    Logo: {img: '/img/logo_imta_white.png', alt: 'Разработка сайтов, реклама в интернете', to: '/ru/google-campaign'},
+    Logo: {img: '/img/logo_imta_white.png', alt: 'Разработка сайтов, реклама в интернете', to: window.location.pathname},
     
     FirstScreen: {
         title: 'Привлекайте больше клиентов с помощью Google Рекламы',

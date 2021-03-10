@@ -10,7 +10,7 @@ const FooterLinks = props => {
         <div key={index+item} className={'footer-nav__item'}>
             <h3 className={'footer-nav__title'}>{item.Title}</h3>
             <ul className={'footer-nav__links'}>
-                {item.Links.map((link, index) => <li key={index+3*2}><NavLink to={'/ru'+link.link}>{link.Name}</NavLink></li>)}
+                {item.Links.map((link, index) => <li key={index+3*2}><NavLink to={window.location.pathname}>{link.Name}</NavLink></li>)}
             </ul>
         </div>
 

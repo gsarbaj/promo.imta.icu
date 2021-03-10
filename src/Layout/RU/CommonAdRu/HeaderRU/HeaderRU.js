@@ -2,9 +2,9 @@ import React from 'react';
 import Logo from "../../../../Components/Logo/Logo";
 import NavBar from "../../../../Components/NavBar/NavBar";
 import Tel from "../../../../Components/Tel/Tel";
-import {Data} from "../../../../Data/InstagramAdRu/DataRu";
+import {Data} from "../../../../Data/CommonAdRu/DataRu";
 import './Header.css';
-import {NavData} from "../../../../Data/InstagramAdRu/NavDataRu";
+import {NavData} from "../../../../Data/CommonAdRu/NavDataRu";
 
 const HeaderRu = () => {
   return (

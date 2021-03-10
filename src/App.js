@@ -2,6 +2,8 @@ import './App.css';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import GoogleAdRu from "./Layout/RU/GoogleAdRu/GoogleAdRu";
 import InstagramAdRu from "./Layout/RU/InstagramAdRu/InstagramAdRu";
+import RusAuditoryAdRu from "./Layout/RU/RusAuditoryAdRu/RusAuditoryAdRu";
+import CommonAdRu from "./Layout/RU/CommonAdRu/CommonAdRu";
 
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
 
             <Route path={'/ru/google-campaign'} component={GoogleAdRu}/>
             <Route path={'/ru/instagram-campaign'} component={InstagramAdRu}/>
-            <Redirect to={'/ru/instagram-campaign'}/>
+            <Route path={'/ru/ru-audience-campaign'} component={RusAuditoryAdRu}/>
+            <Route path={'/ru/common-campaign'} component={CommonAdRu}/>
+            <Redirect to={'/ru/common-campaign'}/>
         </Switch>
     )
 
